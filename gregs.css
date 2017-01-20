@@ -31,6 +31,10 @@ a {
     padding: 5px;
 }
 
+nav a:link {
+    color: purple;
+}
+
 a:hover {
     text-decoration: underline;
     font-size: 16px;

@@ -12,20 +12,22 @@
     <title>Greg's List</title>
     <meta name="description" content="search results for Greg's list'">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="gregs.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>Greg's List</li>
-            <li>Post</li>
-            <li>Account</li>
-        </ul>
+    <nav class="row">
+        <div class="col-xs start-xs">
+            <span class="navtext">Greg's List</span>
+        </div>
+        <div class="col-xs end-xs">
+            <span class="navtext"><a class="" href="#">Post</a><a class="" href="#">Account</a></span>
+        </div>
     </nav>
     <header>
         <form action="search">
-            <input type="text">
-            <img src="" alt="magnifying glass">
+            <input type="text" name="query" placeholder="Search" />
+            <img src="magnigying-glass.png" alt="magnifying glass">
         </form>
     </header>
     <main>

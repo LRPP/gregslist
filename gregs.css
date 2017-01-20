@@ -9,6 +9,57 @@ nav {
     align-items: center;
 }
 
+header,
+main {
+    padding-left: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+input {
+    width: 500px;
+}
+
+.dateplace {
+    color: grey;
+}
+
+.search {
+    height: 30px;
+    border: 1px solid lightgrey;
+    padding: 1px;
+    margin-left: 3px;
+    border-radius: 1px;
+}
+
+.pagination {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    padding: 8px;
+    border-radius: 1px;
+    margin: 30px 0px
+}
+
 .row {
     box-sizing: border-box;
     display: -webkit-flex;
@@ -63,13 +114,4 @@ nav {
 .navtext {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
-}
-
-nav a {
-    text-decoration: none;
-    padding: 5px;
-}
-
-a:hover {
-    text-decoration: underline;
 }
